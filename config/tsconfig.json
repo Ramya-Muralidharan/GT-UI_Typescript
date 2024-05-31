@@ -1,0 +1,18 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+  },
+  "include": [
+    "../ui/tests/**/*.ts"
+  ],
+  "exclude": [
+    "../node_modules/**/*",
+    "../reports/**/*",
+    "./ui/target/**/*"
+  ]
+}
